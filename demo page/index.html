@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickerlite Bridge Controller</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main class="container" id="root">
+        <h1>Clicker Panel</h1>
+        <p class="subtitle">Press 1-9 on your keyboard</p>
+        
+        <div class="grid" id="buttons-panel">
+            <!-- Buttons will be dynamically generated via main.js -->
+        </div>
+    </main>
+
+    <!-- Scripts connection order -->
+    <script src="./server.js"></script>
+    <script src="./coords.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
